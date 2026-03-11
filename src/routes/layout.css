@@ -7,6 +7,12 @@
 	}
 }
 
+@layer components {
+	.btn {
+		@apply cursor-pointer border bg-white px-5 text-xl text-black transition hover:bg-black hover:text-white;
+	}
+}
+
 @font-face {
 	font-family: 'Fira Sans';
 	src: url('$lib/assets/font/FiraSans.ttf');
