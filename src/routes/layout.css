@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+
+@layer base {
+	:root {
+		@apply font-[Fira_Sans];
+	}
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('$lib/assets/font/FiraSans.ttf');
+}
